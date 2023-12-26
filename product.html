@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=0.5, minimum-scale=0.1, maximum-scale=5.0, user-scalable=yes"/>
+<title>Porduct Page</title>
+<link rel="stylesheet" type="text/css" href="productcss.css">
+
+<script src = "productjs.js"  defer></script>
+
+</head>
+<body>
+<div id="containertop">
+<div id="welcome">
+<p> Hello, Steve!</p>
+</div>
+<div id="centerspacenonb">
+<input type="text" id="txt1" onkeyup="showHint(this.value)"><button>Search</button><br />
+<p>Search Suggestion:<span id="txtHint"></span></p>
+</div>
+<img src="logo.jpg" alt="Taobao" style="width:100px; float: left; margin-left: 0.15in; margin-bottom: 0.35in" "><h2>Taobao</h2>
+<p> <br /></p>
+<p> <br /></p>
+<p> <br /></p>
+</div>
+<p> <br /></p>
+
+
+
+<div id="container">
+<div id="nav">
+<h2>Navigation</h2>
+<ul>
+<li> <a href="https://world.taobao.com/">Main Page</a> </li>
+<li> About </li>
+<li> Online Service </li>
+</ul>
+</div>
+<p> <br /></p>
+<p> <br /></p>
+<p> <br /></p>
+<p> <br /></p>
+<div id="header">
+<h1>Lenovo Y7000P<h1>
+</div>
+<h2>Gaming Laptop</h2>
+<p> <br /></p>
+<img class = "p1"  id = "p1"  height = "375" width = "500" float: right;  src = "p1.png" alt = "(Picture of white)" onclick = "toTop('p1')" />
+<img class = "p2"  id = "p2"  height = "375" width = "500" float: right; src = "p2.png" alt = "(Picture of grey)" onclick = "toTop('p2')" />
+<img class = "p3"  id = "p3"  height = "375" width = "500" float: right;  src = "p3.png" alt = "(Picture of black)" onclick = "toTop('p3')" />
+<div id="main">
+<p>The Lenovo Y7000P comes preloaded with Windows 10 Home Standard, an Intel Core processor, a NVIDIA GeForce RTX stand-alone graphics card, a large amount of memory, an SSD solid state drive, and a 15.6-inch full HD screen. It's a home gaming laptop.</p>
+<p>Super high performance configuration, so that players can enjoy the immersive game experience in each game kingdom!</p>
+<p>Large double heat pipe parallel design, dual fans concentrated heat dissipation, so that players can experience a smooth and fresh body feel even in high temperature!</p>
+<p>A new generation of high performance core processor enables players to swim in a sea of data without delay!</p>
+<p>The whole series are equipped with 100% sRGB high color gamut screens, and the color brightness and comfort are fully improved. There is also DC dimming technology, the screen has no flicker, and the look and feel is more comfortable.</p>
+<p>What are you waiting for to join the HP family? <a href="#Purchase Now">Purchase Now!</a></p>
+</div>
+</div>
+
+<p><br /><br /><br /><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+
+<div id="container">
+<div id="header2">
+<h1>Product Characteristics<h1>
+</div>
+<div id="content">
+<div id="leftspaceb">
+<h2> White </h2>
+<ul>
+<li> Standard Version </li>
+<li> CPU: i7-10875H </li>
+<li> Storage: 512G SSD </li>
+<li> GPU: GeForce RTX2060 6G </li>
+</ul>
+<p><br /></p>
+<p><br /></p>
+</div>
+<div id="centerspaceb">
+<h2> Grey </h2>
+<ul>
+<li> Economic Version </li>
+<li> CPU: i7-10875H  </li>
+<li> Storage: 512G SSD </li>
+<li> GPU: GeForce GTX1650Ti 4G </li>
+</ul>
+<p><br /></p>
+<p><br /></p>
+</div>
+<div id="rightspaceb">
+<h2> Black </h2>
+<ul>
+<li> Top-Level Version </li>
+<li> CPU: i7-11800H  </li>
+<li> Storage: 512G SSD </li>
+<li> GPU: GeForce RTX3060Ti 6G </li>
+</ul>
+<p><br /></p>
+<p><br /></p>
+
+</div>
+</div>
+
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+
+<div id="header3">
+<h1>Purchase Details</h1>
+</div>
+<div id="containerdes">
+<div id="leftspacesmall">
+<p>Graphics card level of this product: RTX3060Ti > RTX2060 > 1650Ti.<br /></p>
+<p>Higher-level graphics cards have significantly improved the gaming experience.<br /></p>
+<p>Of course, the power consumption of different levels of graphics cards is also different, the higher the level, the higher the power consumption. <br /></p>
+<p>Except for this difference and color, other properties of this product are the same.</p>
+</div>
+<div id="rightspacesmall">
+<p class = "white">Place an order immediately and you will get the following gifts:</p>
+<ul>
+<li> Backpack Computer Bag </li>
+<li> Mechanical Keyboard and Mouse Set </li>
+<li> Anti-slip Mouse Pad </li>
+<li> Mouse and Keyboard Cleaning Kit </li>
+<li> 100$ Lenovo Gift Card </li>
+</ul>
+</div>
+<div id="containerb">
+<a name ="Purchase Now"></a>
+<div id="centerspace">
+<p class = "white">Personalized Customization</p><br />
+<form>
+<p class = "white">Color selection: </p>
+<select name = "colors" id = "colorselect"  onchange = "getVersions(this.value)" >
+<option value = ""> 00 </option>
+<option value = "White"> White </option>
+<option value = "Grey"> Grey </option>
+<option value = "Black"> Black </option>
+</select><br />
+<p  class = "white">Version: </p>
+<select name = "versions" id = "versionselect">
+</select>
+<p  class = "white">Price: </p>
+<select name = "Prices" id = "Price">
+</select>
+<br />
+<input type = "button" value = "Add Item" onclick="addobject()" class = "specialButton"><input type = "button" value = "View Your Cart" onclick="viewcart()" class = "specialButton">
+<br />
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id = "cart">
+</div>
+<p><br /></p>
+<p><br /></p>
+
+<div id="container">
+<div id="similargood">
+<h1> Similar Product: </h1>
+</div>
+<p> <br /></p>
+<img src="Apple.jpg" alt="Apple" style="width:300px;  margin-left: 0.35in" ">
+<a href="https://www.apple.com">Apple</a>
+<img src="OMEN6.png" alt="HP" style="width:300px;  margin-left: 0.35in" ">
+<a href="https://www.hpstore.com/">HP</a>
+<img src="ROG.jpg" alt="ROG" style="width:300px;  margin-left: 0.35in" ">
+<a href="https://www.asus.com">ROG</a>
+</div>
+</div>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<script src = "searchjs.js"  defer></script>
+</body>
+</html>

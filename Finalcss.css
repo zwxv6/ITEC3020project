@@ -1,0 +1,116 @@
+body
+{
+	 margin: 0;
+	 padding: 0;
+   	 background-image: url("background.png");
+  	 background-repeat: no-repeat;
+}
+
+.inputText
+{
+    	border: 0;
+    	padding: 10px 10px;
+    	border-bottom: 1px solid white;
+    	background-color: #00000000;
+    	color: white;
+}
+
+.loginButton
+{
+
+    	margin-right: 30px;
+    	margin-top: 40px;
+    	width: 100px;
+    	height: 25px;
+    	color: white;	
+    	border: 0; 
+    	border-radius: 20px;	
+    	background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
+
+h1{
+    	color: white;
+    	font-family: "Comic Sans MS";
+}
+
+p{
+    	color: white;
+    	font-family: "Comic Sans MS";
+}
+
+#container{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;	
+	border: 2px solid #DCDCDC;
+	border-radius: 2%;
+}
+
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.large{
+	font-size: 35px;
+}
+
+.middle{
+	font-size: 25px;
+}
+
+.small{
+	font-size: 22px;
+}
+
+.doublespace{
+	line-height: 20px;
+}
+
+.radius1{
+	line-height: 50px;
+	background-color: #F5F5F5;
+	border: 2px solid #1E90FF;
+	border-radius: 45%;
+}
+
+.bigbotton{
+	height: 50px;
+	width: 90px;
+}
+
+.highertextarea{
+	height: 25px;
+}
+
+#leftspace{
+	width: 750px;
+	float: left;
+}
+
+#rightspace{
+	width: 750px;
+	float: right;
+}
+
+#cart{
+	width: 460px;
+	height: 450px;
+	border: 2px solid Black;
+	border-radius: 2%;
+}
+
+#loginBox{
+    	margin: 0 auto;
+	margin-top: 170px;
+  	padding: 20px 50px;
+  	background-color: #00000090;
+  	width: 400px;
+   	height: 300px;
+   	border-radius: 10px;
+  	text-align: center;	
+}
